@@ -5,3 +5,6 @@ __pycache__/
 venv/
 .vscode/
 .idea/
+
+bot.log
+*.log
