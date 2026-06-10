@@ -73,7 +73,7 @@ source venv/bin/activate
 Windows:
 
 ```bash
-venv\Scripts\activate
+.\venv\Scripts\Activate.ps1
 ```
 
 If activation is successful, you will see:
