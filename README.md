@@ -1,142 +1,418 @@
-# Telegram Notes Bot
+# Installation and Setup Guide
 
-A simple Telegram bot for storing personal notes using Python, aiogram 3.x, and SQLite.
+This guide explains how to install and run the Telegram Notes Bot from scratch.
 
-## Features
+## Prerequisites
 
-- Add personal notes
-- View all saved notes
-- Delete notes by ID
-- Store notes separately for each Telegram user
-- SQLite database support
-- Environment-based configuration
-- Basic error handling
+Before starting, make sure you have:
 
-## Technologies
+* Python 3.10 or newer installed
+* Internet connection
+* Telegram account
 
-- Python 3
-- aiogram 3.x
-- SQLite
-- python-dotenv
+Check Python version:
 
-## Project Structure
+```bash
+python --version
+```
+
+or
+
+```bash
+python3 --version
+```
+
+Example:
 
 ```text
-telegram_notes_bot/
-├── app/
-│   ├── database/
-│   │   ├── __init__.py
-│   │   └── db.py
-│   ├── handlers/
-│   │   ├── __init__.py
-│   │   └── notes.py
-│   ├── __init__.py
-│   └── middlewares.py
-├── .env.example
-├── .gitignore
-├── config.py
-├── init_db.py
-├── main.py
-├── README.md
-└── requirements.txt
-Security Notes
+Python 3.12.3
+```
 
-The bot token and other sensitive configuration values are not stored directly in the source code.
+---
 
-The project uses a .env file for local configuration. This file must not be committed to GitHub.
+## Step 1. Download the Project
 
-The .env.example file is provided only as a template.
+Clone the repository:
 
-Additional security measures:
-
-Parameterized SQL queries are used to reduce SQL injection risks.
-Each note is linked to a specific Telegram user_id.
-Users can view and delete only their own notes.
-Basic rate limiting is used to reduce spam and simple DoS attempts.
-Suspicious or too frequent requests are logged.
-Installation
-1. Clone the repository
+```bash
 git clone https://github.com/mtddbxhgq/telegram-notes-bot.git
+```
+
+Move into the project folder:
+
+```bash
 cd telegram-notes-bot
-2. Create a virtual environment
-python3 -m venv venv
-3. Activate the virtual environment
+```
+
+---
+
+## Step 2. Create a Virtual Environment
 
 Linux/macOS:
 
-source venv/bin/activate
+```bash
+python3 -m venv venv
+```
 
 Windows:
 
+```bash
+python -m venv venv
+```
+
+---
+
+## Step 3. Activate the Virtual Environment
+
+Linux/macOS:
+
+```bash
+source venv/bin/activate
+```
+
+Windows:
+
+```bash
 venv\Scripts\activate
-4. Install dependencies
+```
+
+If activation is successful, you will see:
+
+```text
+(venv)
+```
+
+at the beginning of the terminal line.
+
+---
+
+## Step 4. Install Required Packages
+
+Install all dependencies:
+
+```bash
 pip install -r requirements.txt
-5. Create the environment file
+```
+
+---
+
+## Step 5. Create a Telegram Bot
+
+Open Telegram and search for:
+
+```text
+BotFather
+```
+
+Run:
+
+```text
+/newbot
+```
+
+Follow the instructions.
+
+After the bot is created, BotFather will provide a token.
+
+Example:
+
+```text
+123456789:AAExampleBotToken123456789
+```
+
+Save this token.
+
+---
+
+## Step 6. Generate an Encryption Key
+
+The bot encrypts note contents before storing them in the database.
+
+Generate a Fernet key:
+
+```bash
+python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+```
+
+Example output:
+
+```text
+wL0gJ3u7Tz4j2h0k2rYxX3fJrV4P7nM5K8cD9sQ1eFg=
+```
+
+Save this key.
+
+Important:
+
+* Never share this key.
+* Never upload this key to GitHub.
+* If the key is lost, stored notes cannot be decrypted.
+
+---
+
+## Step 7. Create the .env File
+
+Copy the example configuration:
+
+```bash
 cp .env.example .env
+```
 
-Open .env and add your Telegram bot token:
+Open the file:
 
-BOT_TOKEN=your_telegram_bot_token_here
+```bash
+nano .env
+```
+
+or use any text editor.
+
+Fill it with your values:
+
+```env
+BOT_TOKEN=your_bot_token
 DATABASE_PATH=notes.db
+FERNET_KEY=your_generated_fernet_key
+```
 
-You can get a Telegram bot token from BotFather.
+Example:
 
-Database Initialization
+```env
+BOT_TOKEN=123456789:AAExampleBotToken123456789
+DATABASE_PATH=notes.db
+FERNET_KEY=wL0gJ3u7Tz4j2h0k2rYxX3fJrV4P7nM5K8cD9sQ1eFg=
+```
 
-Before running the bot for the first time, initialize the SQLite database:
+Save the file.
 
+---
+
+## Step 8. Initialize the Database
+
+Create the SQLite database:
+
+```bash
 python init_db.py
+```
 
-This command creates the notes.db file and the required notes table.
+Expected output:
 
-Running the Bot
+```text
+Database initialized successfully.
+```
 
-Start the bot with:
+This creates:
 
+```text
+notes.db
+```
+
+and the required database tables.
+
+---
+
+## Step 9. Start the Bot
+
+Run:
+
+```bash
 python main.py
+```
 
-If the bot starts successfully, it will begin polling Telegram updates.
+Expected output:
 
-Bot Commands
-/start - Start the bot
-/help - Show help message
-/add text - Add a new note
-/notes - Show all your notes
-/delete ID - Delete a note by ID
-Usage Examples
+```text
+Bot started successfully.
+```
 
-Add a note:
+The bot is now running and ready to receive Telegram messages.
 
-/add Prepare laboratory work
+---
+
+## Step 10. Open Your Bot in Telegram
+
+Open Telegram.
+
+Search for your bot username.
+
+Press:
+
+```text
+START
+```
+
+or send:
+
+```text
+/start
+```
+
+---
+
+## Available Commands
+
+```text
+/start
+```
+
+Start the bot.
+
+```text
+/help
+```
+
+Show help information.
+
+```text
+/add
+```
+
+Create a new note.
+
+```text
+/notes
+```
+
+View all saved notes.
+
+```text
+/delete
+```
+
+Delete a note.
+
+```text
+/cancel
+```
+
+Cancel the current operation.
+
+---
+
+## Example Usage
+
+Create a note:
+
+```text
+/add
+```
+
+Bot:
+
+```text
+Please enter the note text.
+```
+
+User:
+
+```text
+Prepare laboratory work
+```
+
+Bot:
+
+```text
+Note added successfully. ID: 1
+```
+
+---
 
 View notes:
 
+```text
 /notes
+```
+
+Bot:
+
+```text
+1. Prepare laboratory work
+Created: 2026-06-10 18:30:00
+```
+
+---
 
 Delete a note:
 
-/delete 1
-How Notes Are Stored
+```text
+/delete
+```
 
-Each note is stored in the SQLite database with the Telegram user's user_id.
+Bot:
 
-This means that every user has a separate list of notes.
+```text
+Choose note number to delete:
 
-One user cannot see or delete notes that belong to another user.
+1. Prepare laboratory work
+Created: 2026-06-10 18:30:00
 
-Environment Variables
-Variable	Description
-BOT_TOKEN	Telegram bot token from BotFather
-DATABASE_PATH	Path to the SQLite database file
-Files Not Included in GitHub
+Enter note ID:
+```
 
-The following files are ignored for security and cleanliness:
+User:
 
+```text
+1
+```
+
+Bot:
+
+```text
+Are you sure you want to delete this note?
+
+Type YES to confirm or NO to cancel.
+```
+
+User:
+
+```text
+YES
+```
+
+Bot:
+
+```text
+Note with ID 1 has been deleted.
+```
+
+---
+
+## Updating the Database Structure
+
+If you changed the database schema during development:
+
+```bash
+rm notes.db
+python init_db.py
+```
+
+Warning:
+
+This removes all saved notes.
+
+---
+
+## Stopping the Bot
+
+Press:
+
+```text
+CTRL + C
+```
+
+in the terminal.
+
+---
+
+## Security Notes
+
+Do not upload the following files to GitHub:
+
+```text
 .env
 notes.db
 bot.log
-venv/
-__pycache__/
-License
+```
 
-This project is created for educational purposes.
+These files contain sensitive information or user data.
+
+The project already ignores these files through `.gitignore`.
