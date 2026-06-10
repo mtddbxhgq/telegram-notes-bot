@@ -60,6 +60,10 @@ Windows:
 python -m venv venv
 ```
 
+```bash
+Please wait 1–2 minutes for the command to finish executing.
+```
+
 ---
 
 ## Step 3. Activate the Virtual Environment
