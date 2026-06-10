@@ -1,0 +1,141 @@
+2026-06-10 14:05:13,280 - INFO - root - Bot started successfully.
+2026-06-10 14:05:13,280 - INFO - aiogram.dispatcher - Start polling
+2026-06-10 14:05:13,700 - INFO - aiogram.dispatcher - Run polling for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:05:37,050 - INFO - aiogram.event - Update id=368011075 is handled. Duration 310 ms by bot id=8996632586
+2026-06-10 14:05:44,829 - INFO - aiogram.event - Update id=368011076 is handled. Duration 103 ms by bot id=8996632586
+2026-06-10 14:05:45,852 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:05:46,060 - INFO - aiogram.event - Update id=368011077 is handled. Duration 208 ms by bot id=8996632586
+2026-06-10 14:05:47,495 - INFO - aiogram.event - Update id=368011078 is handled. Duration 107 ms by bot id=8996632586
+2026-06-10 14:05:48,622 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:05:48,821 - INFO - aiogram.event - Update id=368011079 is handled. Duration 198 ms by bot id=8996632586
+2026-06-10 14:05:51,725 - INFO - aiogram.event - Update id=368011080 is handled. Duration 79 ms by bot id=8996632586
+2026-06-10 14:05:55,384 - INFO - aiogram.event - Update id=368011081 is handled. Duration 112 ms by bot id=8996632586
+2026-06-10 14:05:56,604 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:05:56,710 - INFO - aiogram.event - Update id=368011082 is handled. Duration 106 ms by bot id=8996632586
+2026-06-10 14:05:58,352 - INFO - aiogram.event - Update id=368011083 is handled. Duration 110 ms by bot id=8996632586
+2026-06-10 14:05:59,777 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:05:59,984 - INFO - aiogram.event - Update id=368011084 is handled. Duration 206 ms by bot id=8996632586
+2026-06-10 14:06:01,111 - INFO - aiogram.event - Update id=368011085 is handled. Duration 207 ms by bot id=8996632586
+2026-06-10 14:06:01,825 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:06:01,927 - INFO - aiogram.event - Update id=368011086 is handled. Duration 101 ms by bot id=8996632586
+2026-06-10 14:06:03,975 - INFO - aiogram.event - Update id=368011087 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:06:04,901 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:06:04,972 - INFO - aiogram.event - Update id=368011088 is handled. Duration 71 ms by bot id=8996632586
+2026-06-10 14:06:06,127 - INFO - aiogram.event - Update id=368011089 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:06:07,764 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:06:07,968 - INFO - aiogram.event - Update id=368011090 is handled. Duration 204 ms by bot id=8996632586
+2026-06-10 14:06:09,097 - INFO - aiogram.event - Update id=368011091 is handled. Duration 307 ms by bot id=8996632586
+2026-06-10 14:06:09,817 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:06:09,916 - INFO - aiogram.event - Update id=368011092 is handled. Duration 98 ms by bot id=8996632586
+2026-06-10 14:06:10,632 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:06:10,735 - INFO - aiogram.event - Update id=368011093 is handled. Duration 103 ms by bot id=8996632586
+2026-06-10 14:06:11,553 - INFO - aiogram.event - Update id=368011094 is handled. Duration 86 ms by bot id=8996632586
+2026-06-10 14:11:33,169 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2026-06-10 14:11:33,170 - INFO - aiogram.dispatcher - Polling stopped for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:11:33,178 - INFO - aiogram.dispatcher - Polling stopped
+2026-06-10 14:11:33,430 - INFO - root - Bot stopped.
+2026-06-10 14:12:13,693 - INFO - root - Bot started successfully.
+2026-06-10 14:12:13,693 - INFO - aiogram.dispatcher - Start polling
+2026-06-10 14:12:14,045 - INFO - aiogram.dispatcher - Run polling for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:12:31,117 - INFO - aiogram.event - Update id=368011095 is handled. Duration 381 ms by bot id=8996632586
+2026-06-10 14:12:36,783 - INFO - aiogram.event - Update id=368011096 is handled. Duration 209 ms by bot id=8996632586
+2026-06-10 14:12:42,818 - INFO - aiogram.event - Update id=368011097 is handled. Duration 95 ms by bot id=8996632586
+2026-06-10 14:12:56,861 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=2
+2026-06-10 14:12:56,959 - INFO - aiogram.event - Update id=368011098 is handled. Duration 111 ms by bot id=8996632586
+2026-06-10 14:16:28,953 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2026-06-10 14:16:28,954 - INFO - aiogram.dispatcher - Polling stopped for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:16:28,954 - INFO - aiogram.dispatcher - Polling stopped
+2026-06-10 14:16:29,205 - INFO - root - Bot stopped.
+2026-06-10 14:16:36,588 - INFO - root - Bot started successfully.
+2026-06-10 14:16:36,588 - INFO - aiogram.dispatcher - Start polling
+2026-06-10 14:16:36,901 - INFO - aiogram.dispatcher - Run polling for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:16:48,476 - INFO - aiogram.event - Update id=368011099 is handled. Duration 310 ms by bot id=8996632586
+2026-06-10 14:16:50,828 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/add
+2026-06-10 14:16:50,949 - INFO - aiogram.event - Update id=368011100 is handled. Duration 121 ms by bot id=8996632586
+2026-06-10 14:17:07,313 - INFO - aiogram.event - Update id=368011101 is handled. Duration 113 ms by bot id=8996632586
+2026-06-10 14:17:25,143 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=1
+2026-06-10 14:17:25,231 - INFO - aiogram.event - Update id=368011102 is handled. Duration 101 ms by bot id=8996632586
+2026-06-10 14:17:34,654 - INFO - aiogram.event - Update id=368011103 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:17:35,780 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None | text=/help
+2026-06-10 14:17:35,884 - INFO - aiogram.event - Update id=368011104 is handled. Duration 104 ms by bot id=8996632586
+2026-06-10 14:17:45,199 - INFO - aiogram.event - Update id=368011105 is handled. Duration 97 ms by bot id=8996632586
+2026-06-10 14:17:50,524 - INFO - aiogram.event - Update id=368011106 is handled. Duration 204 ms by bot id=8996632586
+2026-06-10 14:22:52,675 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2026-06-10 14:22:52,676 - INFO - aiogram.dispatcher - Polling stopped for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:22:52,676 - INFO - aiogram.dispatcher - Polling stopped
+2026-06-10 14:22:52,931 - INFO - root - Bot stopped.
+2026-06-10 14:23:03,233 - INFO - root - Bot started successfully.
+2026-06-10 14:23:03,233 - INFO - aiogram.dispatcher - Start polling
+2026-06-10 14:23:03,557 - INFO - aiogram.dispatcher - Run polling for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:23:14,210 - INFO - aiogram.event - Update id=368011107 is handled. Duration 413 ms by bot id=8996632586
+2026-06-10 14:23:20,609 - INFO - aiogram.event - Update id=368011108 is handled. Duration 63 ms by bot id=8996632586
+2026-06-10 14:23:25,777 - INFO - aiogram.event - Update id=368011109 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:23:30,704 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=2
+2026-06-10 14:23:30,794 - INFO - aiogram.event - Update id=368011110 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:23:42,271 - INFO - aiogram.event - Update id=368011111 is handled. Duration 92 ms by bot id=8996632586
+2026-06-10 14:23:59,781 - INFO - aiogram.event - Update id=368011112 is handled. Duration 109 ms by bot id=8996632586
+2026-06-10 14:24:15,849 - INFO - aiogram.event - Update id=368011113 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:24:21,174 - INFO - aiogram.event - Update id=368011114 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:24:32,579 - INFO - app.handlers.notes - Note deleted | user_id=744783650 | note_id=1
+2026-06-10 14:24:32,647 - INFO - aiogram.event - Update id=368011115 is handled. Duration 105 ms by bot id=8996632586
+2026-06-10 14:24:42,472 - INFO - aiogram.event - Update id=368011116 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:30:23,158 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2026-06-10 14:30:23,158 - INFO - aiogram.dispatcher - Polling stopped for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:30:23,158 - INFO - aiogram.dispatcher - Polling stopped
+2026-06-10 14:30:23,409 - INFO - root - Bot stopped.
+2026-06-10 14:37:26,735 - INFO - root - Bot started successfully.
+2026-06-10 14:37:26,735 - INFO - aiogram.dispatcher - Start polling
+2026-06-10 14:37:27,082 - INFO - aiogram.dispatcher - Run polling for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:38:13,781 - INFO - aiogram.event - Update id=368011117 is handled. Duration 403 ms by bot id=8996632586
+2026-06-10 14:38:15,112 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None
+2026-06-10 14:38:15,208 - INFO - aiogram.event - Update id=368011118 is handled. Duration 96 ms by bot id=8996632586
+2026-06-10 14:38:21,925 - INFO - aiogram.event - Update id=368011119 is handled. Duration 313 ms by bot id=8996632586
+2026-06-10 14:39:17,127 - INFO - aiogram.event - Update id=368011120 is handled. Duration 70 ms by bot id=8996632586
+2026-06-10 14:39:20,942 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=1
+2026-06-10 14:39:21,051 - INFO - aiogram.event - Update id=368011121 is handled. Duration 122 ms by bot id=8996632586
+2026-06-10 14:39:23,713 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None
+2026-06-10 14:39:23,815 - INFO - aiogram.event - Update id=368011122 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:39:33,235 - INFO - aiogram.event - Update id=368011123 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:39:43,627 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=2
+2026-06-10 14:39:43,702 - INFO - aiogram.event - Update id=368011124 is handled. Duration 112 ms by bot id=8996632586
+2026-06-10 14:39:47,468 - INFO - aiogram.event - Update id=368011125 is handled. Duration 99 ms by bot id=8996632586
+2026-06-10 14:39:55,149 - INFO - aiogram.event - Update id=368011126 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:39:59,451 - INFO - aiogram.event - Update id=368011127 is handled. Duration 204 ms by bot id=8996632586
+2026-06-10 14:40:06,529 - INFO - aiogram.event - Update id=368011128 is handled. Duration 81 ms by bot id=8996632586
+2026-06-10 14:40:44,095 - INFO - aiogram.event - Update id=368011129 is handled. Duration 102 ms by bot id=8996632586
+2026-06-10 14:40:47,269 - INFO - aiogram.event - Update id=368011130 is handled. Duration 101 ms by bot id=8996632586
+2026-06-10 14:41:30,400 - INFO - aiogram.event - Update id=368011131 is handled. Duration 123 ms by bot id=8996632586
+2026-06-10 14:41:39,532 - INFO - app.handlers.notes - Note added | user_id=8291868861 | note_id=1
+2026-06-10 14:41:39,599 - INFO - aiogram.event - Update id=368011132 is handled. Duration 105 ms by bot id=8996632586
+2026-06-10 14:41:45,011 - INFO - aiogram.event - Update id=368011133 is handled. Duration 90 ms by bot id=8996632586
+2026-06-10 14:50:06,231 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2026-06-10 14:50:06,232 - INFO - aiogram.dispatcher - Polling stopped for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:50:06,232 - INFO - aiogram.dispatcher - Polling stopped
+2026-06-10 14:50:06,484 - INFO - root - Bot stopped.
+2026-06-10 14:50:21,355 - INFO - root - Bot started successfully.
+2026-06-10 14:50:21,356 - INFO - aiogram.dispatcher - Start polling
+2026-06-10 14:50:21,727 - INFO - aiogram.dispatcher - Run polling for bot @n0tes_TG_bot id=8996632586 - 'notes_tg_bot'
+2026-06-10 14:50:35,554 - INFO - aiogram.event - Update id=368011134 is handled. Duration 308 ms by bot id=8996632586
+2026-06-10 14:50:39,239 - INFO - aiogram.event - Update id=368011135 is handled. Duration 106 ms by bot id=8996632586
+2026-06-10 14:50:43,653 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=1
+2026-06-10 14:50:43,739 - INFO - aiogram.event - Update id=368011136 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:50:47,297 - INFO - aiogram.event - Update id=368011137 is handled. Duration 75 ms by bot id=8996632586
+2026-06-10 14:50:50,932 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=2
+2026-06-10 14:50:51,019 - INFO - aiogram.event - Update id=368011138 is handled. Duration 99 ms by bot id=8996632586
+2026-06-10 14:51:05,961 - INFO - aiogram.event - Update id=368011139 is handled. Duration 95 ms by bot id=8996632586
+2026-06-10 14:51:09,754 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=3
+2026-06-10 14:51:09,854 - INFO - aiogram.event - Update id=368011140 is handled. Duration 105 ms by bot id=8996632586
+2026-06-10 14:51:22,039 - INFO - aiogram.event - Update id=368011141 is handled. Duration 103 ms by bot id=8996632586
+2026-06-10 14:51:26,542 - INFO - aiogram.event - Update id=368011142 is handled. Duration 101 ms by bot id=8996632586
+2026-06-10 14:51:33,418 - INFO - app.handlers.notes - Note added | user_id=8291868861 | note_id=1
+2026-06-10 14:51:33,507 - INFO - aiogram.event - Update id=368011143 is handled. Duration 101 ms by bot id=8996632586
+2026-06-10 14:51:59,924 - INFO - aiogram.event - Update id=368011144 is handled. Duration 101 ms by bot id=8996632586
+2026-06-10 14:52:21,940 - INFO - aiogram.event - Update id=368011145 is handled. Duration 306 ms by bot id=8996632586
+2026-06-10 14:52:26,355 - INFO - app.handlers.notes - Note added | user_id=744783650 | note_id=4
+2026-06-10 14:52:26,549 - INFO - aiogram.event - Update id=368011146 is handled. Duration 206 ms by bot id=8996632586
+2026-06-10 14:52:32,385 - INFO - aiogram.event - Update id=368011147 is handled. Duration 103 ms by bot id=8996632586
+2026-06-10 14:52:35,150 - WARNING - app.middlewares - Rate limit triggered | user_id=744783650 | username=None
+2026-06-10 14:52:35,250 - INFO - aiogram.event - Update id=368011148 is handled. Duration 100 ms by bot id=8996632586
+2026-06-10 14:53:34,849 - INFO - aiogram.event - Update id=368011149 is handled. Duration 205 ms by bot id=8996632586
+2026-06-10 14:53:41,928 - INFO - app.handlers.notes - Note deleted | user_id=744783650 | note_id=4
+2026-06-10 14:53:42,020 - INFO - aiogram.event - Update id=368011150 is handled. Duration 104 ms by bot id=8996632586

@@ -8,8 +8,10 @@ def init_db() -> None:
             CREATE TABLE IF NOT EXISTS notes (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 user_id INTEGER NOT NULL,
+                note_id INTEGER NOT NULL,
                 text TEXT NOT NULL,
-                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+                created_at TEXT NOT NULL,
+                UNIQUE(user_id, note_id)
             )
         """)
         conn.commit()
